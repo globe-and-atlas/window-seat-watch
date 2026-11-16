@@ -1,0 +1,21 @@
+{
+  "url": "https://apps.repebble.com/aca3bb65eafa438ebb7474e0",
+  "download": "https://appstore-api.repebble.com/api/assets/pbw/aca3bb65eafa438ebb7474e0/0.2.0/757f7474-f7fc-4c22-9555-39a857702749.pbw",
+  "galleries": {
+    "emery": [
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/8a3741cc-5bb4-44d4-83d1-24445d53c8b4.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/849feb24-2e4d-4e7d-b8e3-ec6a595ff17a.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/28896c30-27c8-471d-80a1-090db2b0349c.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/d9672ca2-8f77-4044-ad3b-d0673239e250.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/e9af7982-e621-4899-a00e-dc4b1f463247.gif"
+    ],
+    "gabbro": [
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/52e47354-831e-4bbc-bcc1-28ce780f0222.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/cd0ea598-e40c-49fe-a53b-2e4cac2a6e8c.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/2fa561a5-d051-4a6e-9bab-d6ff26043f00.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/e65d0897-1f04-45cc-845b-bf2cb5217dea.gif",
+      "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/6b4a57c1-dc0d-4699-adf1-9e74714396a1.gif"
+    ]
+  },
+  "pbw_sha256": "7512f2a7ea64bd45b7f5085bc8129f17a9aad8c85b06d9ee8575a1ac08a893ad"
+}

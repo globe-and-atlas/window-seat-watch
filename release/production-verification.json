@@ -1,0 +1,10 @@
+{
+  "sha256": "c762daa5334510e05f52b4e6450d5526be1683c8bc6c693dda683f3befcdce76",
+  "uuid": "ecee5b93-e8bf-44dc-9a96-2298009f9eff",
+  "targets": [
+    "emery",
+    "gabbro"
+  ],
+  "version": "0.1.1",
+  "fixture_symbols_excluded": true
+}

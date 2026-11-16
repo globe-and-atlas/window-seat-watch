@@ -1,0 +1,102 @@
+[
+  {
+    "route": "san_francisco",
+    "scene": "day",
+    "duration_ms": 1350
+  },
+  {
+    "route": "san_francisco",
+    "scene": "dusk",
+    "duration_ms": 1250
+  },
+  {
+    "route": "san_francisco",
+    "scene": "night",
+    "duration_ms": 1350
+  },
+  {
+    "route": "san_francisco",
+    "scene": "rain",
+    "duration_ms": 1350
+  },
+  {
+    "route": "alpine",
+    "scene": "day",
+    "duration_ms": 900
+  },
+  {
+    "route": "coastal",
+    "scene": "dusk",
+    "duration_ms": 900
+  },
+  {
+    "route": "city",
+    "scene": "night",
+    "duration_ms": 900
+  },
+  {
+    "route": "snowy",
+    "scene": "rain",
+    "duration_ms": 900
+  },
+  {
+    "route": "london",
+    "scene": "day",
+    "duration_ms": 900
+  },
+  {
+    "route": "toronto",
+    "scene": "dusk",
+    "duration_ms": 900
+  },
+  {
+    "route": "sydney",
+    "scene": "night",
+    "duration_ms": 900
+  },
+  {
+    "route": "berlin",
+    "scene": "rain",
+    "duration_ms": 900
+  },
+  {
+    "route": "amsterdam",
+    "scene": "day",
+    "duration_ms": 900
+  },
+  {
+    "route": "paris",
+    "scene": "dusk",
+    "duration_ms": 900
+  },
+  {
+    "route": "barcelona",
+    "scene": "night",
+    "duration_ms": 900
+  },
+  {
+    "route": "queenstown",
+    "scene": "rain",
+    "duration_ms": 900
+  },
+  {
+    "route": "stockholm",
+    "scene": "day",
+    "duration_ms": 900
+  },
+  {
+    "route": "rome",
+    "scene": "dusk",
+    "duration_ms": 900
+  },
+  {
+    "route": "budapest",
+    "scene": "night",
+    "duration_ms": 900
+  },
+  {
+    "route": "countryside",
+    "scene": "rain",
+    "duration_ms": 1150
+  }
+]

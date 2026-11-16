@@ -1,0 +1,9 @@
+A sleeper train window for your Pebble. Watch the carriage view shift from daylight to dusk to night. When fresh weather reports rain or thunderstorms, rain streaks the glass.
+
+• Above the window, see the lighting phase and the latest current conditions.
+• Below the clock, see the next hourly forecast and its local time.
+• Choose Auto or preview Day, Dusk, Night, and Rain in settings.
+• Follow your watch preference or choose 12-hour or 24-hour time.
+• Show an optional date in ISO, US, or European format.
+
+Made for Pebble Time 2 and Pebble Round 2. Configure in the Pebble app. Weather uses your connected phone’s approximate location and Open-Meteo. Time and time-based scenes work offline. The animated preview cycles through sample conditions.

@@ -1,0 +1,68 @@
+{
+  "url": "https://apps.repebble.com/aca3bb65eafa438ebb7474e0",
+  "screenshots": [
+    "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/5d5816c3-d5ba-4228-af67-60956d25c50a.gif",
+    "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/dee0effc-1b33-4133-8269-db950c5dbfab.gif",
+    "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/fcf55ba6-c846-48d3-9113-458949b71d7c.gif",
+    "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/2c9c3ca5-f684-40fb-a32b-2df8b2d7c844.gif",
+    "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/7625c0ec-f110-44e6-96ea-62e14e7249df.gif",
+    "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/7eee6e77-751e-4d97-8f79-d0c0f68f50cb.gif"
+  ],
+  "downloads": [
+    "https://appstore-api.repebble.com/api/assets/pbw/aca3bb65eafa438ebb7474e0/0.1.1/186e7159-e63f-4d40-889c-b034ff72feff.pbw"
+  ],
+  "pbw_exact": true,
+  "both_animated_covers_exact": true,
+  "matched_assets": [
+    {
+      "filename": "emery_01_scenes.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/5d5816c3-d5ba-4228-af67-60956d25c50a.gif",
+      "exact": true
+    },
+    {
+      "filename": "emery_02_day.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/dee0effc-1b33-4133-8269-db950c5dbfab.gif",
+      "exact": true
+    },
+    {
+      "filename": "emery_03_dusk.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/fcf55ba6-c846-48d3-9113-458949b71d7c.gif",
+      "exact": true
+    },
+    {
+      "filename": "emery_04_night-12.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/2c9c3ca5-f684-40fb-a32b-2df8b2d7c844.gif",
+      "exact": true
+    },
+    {
+      "filename": "emery_05_rain.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/emery/7625c0ec-f110-44e6-96ea-62e14e7249df.gif",
+      "exact": true
+    },
+    {
+      "filename": "gabbro_01_scenes.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/7eee6e77-751e-4d97-8f79-d0c0f68f50cb.gif",
+      "exact": true
+    },
+    {
+      "filename": "gabbro_02_day.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/21d6cef0-6336-4835-8c37-951497a10d91.gif",
+      "exact": true
+    },
+    {
+      "filename": "gabbro_03_dusk.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/b0b2a6f6-7b76-4a22-b8f2-4f9dc0bf2c80.gif",
+      "exact": true
+    },
+    {
+      "filename": "gabbro_04_night-12.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/33ab9db2-fd7a-4e4e-8e75-7adecb917ebe.gif",
+      "exact": true
+    },
+    {
+      "filename": "gabbro_05_rain.gif",
+      "url": "https://assets.repebble.com/screenshots/aca3bb65eafa438ebb7474e0/gabbro/b9b17300-22c6-468e-a095-0438652fedfc.gif",
+      "exact": true
+    }
+  ]
+}

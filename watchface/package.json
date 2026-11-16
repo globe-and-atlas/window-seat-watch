@@ -1,0 +1,463 @@
+{
+  "name": "window-seat-watch",
+  "version": "0.2.0",
+  "private": true,
+  "author": "Daniel Bally",
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "displayName": "Window Seat",
+    "uuid": "ecee5b93-e8bf-44dc-9a96-2298009f9eff",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable",
+      "location"
+    ],
+    "messageKeys": [
+      "TimeFormat",
+      "DateFormat",
+      "WeatherEnabled",
+      "WeatherAt",
+      "CurrentKind",
+      "ForecastAt",
+      "Forecast0",
+      "Forecast1",
+      "Forecast2",
+      "WeatherRequest",
+      "SceneMode",
+      "Route"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "EMERY_DAY",
+          "file": "images/emery-day.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "EMERY_DUSK",
+          "file": "images/emery-dusk.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "EMERY_NIGHT",
+          "file": "images/emery-night.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "EMERY_RAIN_DAY",
+          "file": "images/emery-rain_day.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "EMERY_RAIN_DUSK",
+          "file": "images/emery-rain_dusk.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "EMERY_RAIN_NIGHT",
+          "file": "images/emery-rain_night.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "GABBRO_DAY",
+          "file": "images/gabbro-day.png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "GABBRO_DUSK",
+          "file": "images/gabbro-dusk.png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "GABBRO_NIGHT",
+          "file": "images/gabbro-night.png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "GABBRO_RAIN_DAY",
+          "file": "images/gabbro-rain_day.png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "GABBRO_RAIN_DUSK",
+          "file": "images/gabbro-rain_dusk.png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "GABBRO_RAIN_NIGHT",
+          "file": "images/gabbro-rain_night.png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_ALPINE",
+          "file": "images/emery-route-alpine.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_COASTAL",
+          "file": "images/emery-route-coastal.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_CITY",
+          "file": "images/emery-route-city.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_SNOWY",
+          "file": "images/emery-route-snowy.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_SAN_FRANCISCO",
+          "file": "images/emery-route-san_francisco.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_LONDON",
+          "file": "images/emery-route-london.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_TORONTO",
+          "file": "images/emery-route-toronto.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_SYDNEY",
+          "file": "images/emery-route-sydney.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_BERLIN",
+          "file": "images/emery-route-berlin.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_AMSTERDAM",
+          "file": "images/emery-route-amsterdam.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_PARIS",
+          "file": "images/emery-route-paris.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_BARCELONA",
+          "file": "images/emery-route-barcelona.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_QUEENSTOWN",
+          "file": "images/emery-route-queenstown.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_STOCKHOLM",
+          "file": "images/emery-route-stockholm.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_ROME",
+          "file": "images/emery-route-rome.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "EMERY_ROUTE_BUDAPEST",
+          "file": "images/emery-route-budapest.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_ALPINE",
+          "file": "images/gabbro-route-alpine.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_COASTAL",
+          "file": "images/gabbro-route-coastal.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_CITY",
+          "file": "images/gabbro-route-city.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_SNOWY",
+          "file": "images/gabbro-route-snowy.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_SAN_FRANCISCO",
+          "file": "images/gabbro-route-san_francisco.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_LONDON",
+          "file": "images/gabbro-route-london.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_TORONTO",
+          "file": "images/gabbro-route-toronto.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_SYDNEY",
+          "file": "images/gabbro-route-sydney.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_BERLIN",
+          "file": "images/gabbro-route-berlin.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_AMSTERDAM",
+          "file": "images/gabbro-route-amsterdam.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_PARIS",
+          "file": "images/gabbro-route-paris.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_BARCELONA",
+          "file": "images/gabbro-route-barcelona.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_QUEENSTOWN",
+          "file": "images/gabbro-route-queenstown.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_STOCKHOLM",
+          "file": "images/gabbro-route-stockholm.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_ROME",
+          "file": "images/gabbro-route-rome.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "GABBRO_ROUTE_BUDAPEST",
+          "file": "images/gabbro-route-budapest.png",
+          "memoryFormat": "8Bit",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "@rebble/clay": "1.1.0"
+  }
+}

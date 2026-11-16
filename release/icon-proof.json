@@ -1,0 +1,20 @@
+{
+  "small": {
+    "url": "https://appstore-api.repebble.com/api/assets/icons/aca3bb65eafa438ebb7474e0/small/a1e775c1-3cf0-4116-829d-dd7c824e3baa.png",
+    "sha256": "f163ec1a89c67eb7aa4ef2944e4fc359a28bc2ab79da991a047da4e9f5e026df",
+    "mean_rgb_difference": [
+      1.62296875,
+      1.41625,
+      1.44828125
+    ]
+  },
+  "large": {
+    "url": "https://appstore-api.repebble.com/api/assets/icons/aca3bb65eafa438ebb7474e0/large/3fa5b3a7-31a1-4652-89fa-f42168406b09.png",
+    "sha256": "b7cb103ab3dfdeb8b3bfefee89841d8126e5dbb784537e24917fb9b6c8e28124",
+    "mean_rgb_difference": [
+      1.3407600308641976,
+      1.2608024691358024,
+      1.128809799382716
+    ]
+  }
+}
